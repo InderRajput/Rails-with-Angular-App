@@ -1,0 +1,1005 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'heroku' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose cache add [ 'heroku', null ]
+5 verbose cache add name=undefined spec="heroku" args=["heroku",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'heroku',
+6 verbose parsed url   path: 'heroku',
+6 verbose parsed url   href: 'heroku' }
+7 silly lockFile 9aef5f5a-heroku heroku
+8 verbose lock heroku /home/treehouse/.npm/9aef5f5a-heroku.lock
+9 silly lockFile 9aef5f5a-heroku heroku
+10 silly lockFile 9aef5f5a-heroku heroku
+11 verbose addNamed [ 'heroku', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 91601de1-heroku heroku@
+14 verbose lock heroku@ /home/treehouse/.npm/91601de1-heroku.lock
+15 silly addNameRange { name: 'heroku', range: '*', hasData: false }
+16 verbose url raw heroku
+17 verbose url resolving [ 'https://registry.npmjs.org/', './heroku' ]
+18 verbose url resolved https://registry.npmjs.org/heroku
+19 info trying registry request attempt 1 at 06:22:17
+20 http GET https://registry.npmjs.org/heroku
+21 http 200 https://registry.npmjs.org/heroku
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"8187TTUIEMHQCRNGAFYLY1PJ3"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '13710',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Fri, 11 Dec 2015 11:22:27 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1449832946.955057,VS0,VE873',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'heroku', range: '*', hasData: true }
+24 silly addNameRange versions [ 'heroku',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3' ] ]
+25 verbose addNamed [ 'heroku', '0.1.3' ]
+26 verbose addNamed [ '0.1.3', '0.1.3' ]
+27 silly lockFile b3da329a-heroku-0-1-3 heroku@0.1.3
+28 verbose lock heroku@0.1.3 /home/treehouse/.npm/b3da329a-heroku-0-1-3.lock
+29 silly lockFile 27b5d09f-pmjs-org-heroku-heroku-0-1-3-tgz https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz
+30 verbose lock https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz /home/treehouse/.npm/27b5d09f-pmjs-org-heroku-heroku-0-1-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz',
+31 verbose addRemoteTarball   '65af1921e6fe784f3980b412940143d057cc9d78' ]
+32 info retry fetch attempt 1 at 06:22:40
+33 verbose fetch to= /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/tmp.tgz
+34 http GET https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz
+35 http 200 https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz
+36 verbose tar unpack /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/tmp.tgz
+37 silly lockFile dc325c3d-960557-0-793633756460622-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+38 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package /home/treehouse/.npm/dc325c3d-960557-0-793633756460622-package.lock
+39 silly lockFile 89e9e991-960557-0-793633756460622-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/tmp.tgz
+40 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/tmp.tgz /home/treehouse/.npm/89e9e991-960557-0-793633756460622-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry Cakefile
+46 silly gunzTarPerm extractEntry lib/addons.js
+47 silly gunzTarPerm extractEntry lib/config_vars.js
+48 silly gunzTarPerm extractEntry lib/domains.js
+49 silly gunzTarPerm extractEntry lib/heroku.js
+50 silly gunzTarPerm extractEntry lib/keys.js
+51 silly gunzTarPerm extractEntry lib/collaborators.js
+52 silly gunzTarPerm extractEntry lib/pgbackups.js
+53 silly gunzTarPerm extractEntry lib/postgres-addon.js
+54 silly gunzTarPerm extractEntry lib/processes.js
+55 silly gunzTarPerm extractEntry lib/releases.js
+56 silly gunzTarPerm extractEntry lib/shared-postgresql.js
+57 silly gunzTarPerm extractEntry lib/apps.js
+58 silly gunzTarPerm extractEntry lib/stacks.js
+59 silly gunzTarPerm extractEntry lib/logs.js
+60 silly gunzTarPerm extractEntry misc/monkey.png
+61 silly gunzTarPerm extractEntry spec/apps.spec.coffee
+62 silly gunzTarPerm extractEntry src/keys.coffee
+63 silly gunzTarPerm extractEntry src/addons.coffee
+64 silly gunzTarPerm extractEntry src/collaborators.coffee
+65 silly gunzTarPerm extractEntry src/config_vars.coffee
+66 silly gunzTarPerm extractEntry src/domains.coffee
+67 silly gunzTarPerm extractEntry src/heroku.coffee
+68 silly gunzTarPerm extractEntry src/apps.coffee
+69 silly gunzTarPerm extractEntry src/logs.coffee
+70 silly gunzTarPerm extractEntry src/pgbackups.coffee
+71 silly gunzTarPerm extractEntry src/processes.coffee
+72 silly gunzTarPerm extractEntry src/releases.coffee
+73 silly gunzTarPerm extractEntry src/stacks.coffee
+74 silly lockFile dc325c3d-960557-0-793633756460622-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+75 silly lockFile dc325c3d-960557-0-793633756460622-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+76 silly lockFile 89e9e991-960557-0-793633756460622-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/tmp.tgz
+77 silly lockFile 89e9e991-960557-0-793633756460622-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/tmp.tgz
+78 verbose tar pack [ '/home/treehouse/.npm/heroku/0.1.3/package.tgz',
+78 verbose tar pack   '/home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package' ]
+79 verbose tarball /home/treehouse/.npm/heroku/0.1.3/package.tgz
+80 verbose folder /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+81 silly lockFile dc325c3d-960557-0-793633756460622-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+82 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package /home/treehouse/.npm/dc325c3d-960557-0-793633756460622-package.lock
+83 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+84 verbose lock tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz /home/treehouse/.npm/b83e2256-use-npm-heroku-0-1-3-package-tgz.lock
+85 silly lockFile dc325c3d-960557-0-793633756460622-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+86 silly lockFile dc325c3d-960557-0-793633756460622-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832960557-0.793633756460622/package
+87 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+88 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+89 silly lockFile 119cbbda-eehouse-npm-heroku-0-1-3-package /home/treehouse/.npm/heroku/0.1.3/package
+90 verbose lock /home/treehouse/.npm/heroku/0.1.3/package /home/treehouse/.npm/119cbbda-eehouse-npm-heroku-0-1-3-package.lock
+91 silly lockFile 119cbbda-eehouse-npm-heroku-0-1-3-package /home/treehouse/.npm/heroku/0.1.3/package
+92 silly lockFile 119cbbda-eehouse-npm-heroku-0-1-3-package /home/treehouse/.npm/heroku/0.1.3/package
+93 verbose tar unpack /home/treehouse/.npm/heroku/0.1.3/package.tgz
+94 silly lockFile 1dab5233-eehouse-npm-heroku-0-1-3-package tar:///home/treehouse/.npm/heroku/0.1.3/package
+95 verbose lock tar:///home/treehouse/.npm/heroku/0.1.3/package /home/treehouse/.npm/1dab5233-eehouse-npm-heroku-0-1-3-package.lock
+96 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+97 verbose lock tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz /home/treehouse/.npm/b83e2256-use-npm-heroku-0-1-3-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm extractEntry .npmignore
+101 silly gunzTarPerm extractEntry README.md
+102 silly gunzTarPerm extractEntry Cakefile
+103 silly gunzTarPerm extractEntry lib/addons.js
+104 silly gunzTarPerm extractEntry lib/config_vars.js
+105 silly gunzTarPerm extractEntry lib/domains.js
+106 silly gunzTarPerm extractEntry lib/heroku.js
+107 silly gunzTarPerm extractEntry lib/keys.js
+108 silly gunzTarPerm extractEntry lib/collaborators.js
+109 silly gunzTarPerm extractEntry lib/pgbackups.js
+110 silly gunzTarPerm extractEntry lib/postgres-addon.js
+111 silly gunzTarPerm extractEntry lib/processes.js
+112 silly gunzTarPerm extractEntry lib/releases.js
+113 silly gunzTarPerm extractEntry lib/shared-postgresql.js
+114 silly gunzTarPerm extractEntry lib/apps.js
+115 silly gunzTarPerm extractEntry lib/stacks.js
+116 silly gunzTarPerm extractEntry lib/logs.js
+117 silly gunzTarPerm extractEntry misc/monkey.png
+118 silly gunzTarPerm extractEntry spec/apps.spec.coffee
+119 silly gunzTarPerm extractEntry src/keys.coffee
+120 silly gunzTarPerm extractEntry src/addons.coffee
+121 silly gunzTarPerm extractEntry src/collaborators.coffee
+122 silly gunzTarPerm extractEntry src/config_vars.coffee
+123 silly gunzTarPerm extractEntry src/domains.coffee
+124 silly gunzTarPerm extractEntry src/heroku.coffee
+125 silly gunzTarPerm extractEntry src/apps.coffee
+126 silly gunzTarPerm extractEntry src/logs.coffee
+127 silly gunzTarPerm extractEntry src/pgbackups.coffee
+128 silly gunzTarPerm extractEntry src/processes.coffee
+129 silly gunzTarPerm extractEntry src/releases.coffee
+130 silly gunzTarPerm extractEntry src/stacks.coffee
+131 silly lockFile 1dab5233-eehouse-npm-heroku-0-1-3-package tar:///home/treehouse/.npm/heroku/0.1.3/package
+132 silly lockFile 1dab5233-eehouse-npm-heroku-0-1-3-package tar:///home/treehouse/.npm/heroku/0.1.3/package
+133 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+134 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+135 verbose chmod /home/treehouse/.npm/heroku/0.1.3/package.tgz 644
+136 verbose chown /home/treehouse/.npm/heroku/0.1.3/package.tgz [ 1001, 1003 ]
+137 silly lockFile 27b5d09f-pmjs-org-heroku-heroku-0-1-3-tgz https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz
+138 silly lockFile 27b5d09f-pmjs-org-heroku-heroku-0-1-3-tgz https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz
+139 silly lockFile b3da329a-heroku-0-1-3 heroku@0.1.3
+140 silly lockFile b3da329a-heroku-0-1-3 heroku@0.1.3
+141 silly lockFile 91601de1-heroku heroku@
+142 silly lockFile 91601de1-heroku heroku@
+143 silly resolved [ { name: 'heroku',
+143 silly resolved     description: 'Heroku API bindings for node.',
+143 silly resolved     version: '0.1.3',
+143 silly resolved     homepage: 'http://github.com/toots/node-heroku',
+143 silly resolved     author: { name: 'Romain Beauxis' },
+143 silly resolved     repository: { type: 'git', url: 'git://github.com/toots/node-heroku.git' },
+143 silly resolved     bugs: { url: 'http://github.com/toots/node-heroku/issues' },
+143 silly resolved     main: 'lib/heroku.js',
+143 silly resolved     directories: { lib: './lib', test: './test', src: './src' },
+143 silly resolved     scripts: { test: 'cake spec' },
+143 silly resolved     engine: { node: '>= 0.4.7', npm: '1' },
+143 silly resolved     licences: [ [Object] ],
+143 silly resolved     dependencies: { 'coffee-script': '1.6.3', 'jasmine-node': '1.10.2' },
+143 silly resolved     readme: 'Heroku client API for node\n==========================\n\nWelcome to this (almost) untested, mostly rip-off of [heroku/heroku.rb](https://github.com/heroku/heroku.rb).\n\nThis module provides exactly the same API as heroku\'s official client. Each function has been carefully fed\nto monkeys who, through patience and understanding, had been trained to translate basic ruby into coffee \nscript.\n\n<table>\n  <tr><td><img src="https://github.com/toots/node-heroku/raw/master/misc/monkey.png" alt="A monkey in action" title="A monkey in action"/></td></tr>\n  <tr><td>A monkey in action</td></tr>\n</table>\n\nThose monkeys\' education cost a lot so we could not afford tests for this code. However, we guarantee that\nno animal was hurt while preparing this module.\n\nHow to use?\n===========\n\nAPI exported by this module is _exactly_ the same as API exported by  [heroku/heroku.rb](https://github.com/heroku/heroku.rb).\nYes, this also means that some variables are not camelCased. We apologize in advance for this inconvenience and,\nmost regretfully, have to deny any liability regarding possible eye injury while inspecting this code.\n\nThat being said, here\'s a sample use:\n\n    heroku = require("heroku");\n    client = new heroku.Heroku({key: "deadbeef"});\n    client.get_releases("my_app", function (error, result) {\n      (...your code here...)\n    });\n\nFor those who prefer to have it with more caffeine, here\'s the same example in\n[coffee-script](https://github.com/jashkenas/coffee-script):\n\n    {Heroku} = require "heroku"\n    client   = new Heroku\n      key : "deadbeef"\n\n    client.get_releases "my_app", (error, result) ->\n      (..your code here..)\n\n### License\n\nThis code is dual licensed under the Beerware / Lunchware license.  See below for details:\n\n    THE BEER-WARE / LUNCH-WARE LICENSE (Revision 42):\n    <toots@rastageeks.org> wrote this file. As long as you retain this notice you\n    can do whatever you want with this stuff. If we meet some day, and you think\n    this stuff is worth it, you can buy me a beer and/or lunch in return -- Romain Beauxis\n',
+143 silly resolved     readmeFilename: 'README.md',
+143 silly resolved     _id: 'heroku@0.1.3',
+143 silly resolved     dist: { shasum: '49e3deec25e3c7f1b42ee6bb8bbd82d653559582' },
+143 silly resolved     _from: 'heroku@',
+143 silly resolved     _resolved: 'https://registry.npmjs.org/heroku/-/heroku-0.1.3.tgz' } ]
+144 info install heroku@0.1.3 into /home/treehouse/projects/angularrails
+145 info installOne heroku@0.1.3
+146 info /home/treehouse/projects/angularrails/node_modules/heroku unbuild
+147 verbose tar unpack /home/treehouse/.npm/heroku/0.1.3/package.tgz
+148 silly lockFile 59169c74-angularrails-node-modules-heroku tar:///home/treehouse/projects/angularrails/node_modules/heroku
+149 verbose lock tar:///home/treehouse/projects/angularrails/node_modules/heroku /home/treehouse/.npm/59169c74-angularrails-node-modules-heroku.lock
+150 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+151 verbose lock tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz /home/treehouse/.npm/b83e2256-use-npm-heroku-0-1-3-package-tgz.lock
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry .npmignore
+155 silly gunzTarPerm extractEntry README.md
+156 silly gunzTarPerm extractEntry Cakefile
+157 silly gunzTarPerm extractEntry lib/addons.js
+158 silly gunzTarPerm extractEntry lib/config_vars.js
+159 silly gunzTarPerm extractEntry lib/domains.js
+160 silly gunzTarPerm extractEntry lib/heroku.js
+161 silly gunzTarPerm extractEntry lib/keys.js
+162 silly gunzTarPerm extractEntry lib/collaborators.js
+163 silly gunzTarPerm extractEntry lib/pgbackups.js
+164 silly gunzTarPerm extractEntry lib/postgres-addon.js
+165 silly gunzTarPerm extractEntry lib/processes.js
+166 silly gunzTarPerm extractEntry lib/releases.js
+167 silly gunzTarPerm extractEntry lib/shared-postgresql.js
+168 silly gunzTarPerm extractEntry lib/apps.js
+169 silly gunzTarPerm extractEntry lib/stacks.js
+170 silly gunzTarPerm extractEntry lib/logs.js
+171 silly gunzTarPerm extractEntry misc/monkey.png
+172 silly gunzTarPerm extractEntry spec/apps.spec.coffee
+173 silly gunzTarPerm extractEntry src/keys.coffee
+174 silly gunzTarPerm extractEntry src/addons.coffee
+175 silly gunzTarPerm extractEntry src/collaborators.coffee
+176 silly gunzTarPerm extractEntry src/config_vars.coffee
+177 silly gunzTarPerm extractEntry src/domains.coffee
+178 silly gunzTarPerm extractEntry src/heroku.coffee
+179 silly gunzTarPerm extractEntry src/apps.coffee
+180 silly gunzTarPerm extractEntry src/logs.coffee
+181 silly gunzTarPerm extractEntry src/pgbackups.coffee
+182 silly gunzTarPerm extractEntry src/processes.coffee
+183 silly gunzTarPerm extractEntry src/releases.coffee
+184 silly gunzTarPerm extractEntry src/stacks.coffee
+185 silly lockFile 59169c74-angularrails-node-modules-heroku tar:///home/treehouse/projects/angularrails/node_modules/heroku
+186 silly lockFile 59169c74-angularrails-node-modules-heroku tar:///home/treehouse/projects/angularrails/node_modules/heroku
+187 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+188 silly lockFile b83e2256-use-npm-heroku-0-1-3-package-tgz tar:///home/treehouse/.npm/heroku/0.1.3/package.tgz
+189 info preinstall heroku@0.1.3
+190 verbose readDependencies using package.json deps
+191 verbose readDependencies using package.json deps
+192 verbose cache add [ 'coffee-script@1.6.3', null ]
+193 verbose cache add name=undefined spec="coffee-script@1.6.3" args=["coffee-script@1.6.3",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'coffee-script@1.6.3',
+194 verbose parsed url   path: 'coffee-script@1.6.3',
+194 verbose parsed url   href: 'coffee-script@1.6.3' }
+195 verbose cache add name="coffee-script" spec="1.6.3" args=["coffee-script","1.6.3"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '1.6.3',
+196 verbose parsed url   path: '1.6.3',
+196 verbose parsed url   href: '1.6.3' }
+197 verbose addNamed [ 'coffee-script', '1.6.3' ]
+198 verbose addNamed [ '1.6.3', '1.6.3' ]
+199 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+200 verbose lock coffee-script@1.6.3 /home/treehouse/.npm/15ab88ca-coffee-script-1-6-3.lock
+201 verbose cache add [ 'jasmine-node@1.10.2', null ]
+202 verbose cache add name=undefined spec="jasmine-node@1.10.2" args=["jasmine-node@1.10.2",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'jasmine-node@1.10.2',
+203 verbose parsed url   path: 'jasmine-node@1.10.2',
+203 verbose parsed url   href: 'jasmine-node@1.10.2' }
+204 verbose cache add name="jasmine-node" spec="1.10.2" args=["jasmine-node","1.10.2"]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '1.10.2',
+205 verbose parsed url   path: '1.10.2',
+205 verbose parsed url   href: '1.10.2' }
+206 verbose addNamed [ 'jasmine-node', '1.10.2' ]
+207 verbose addNamed [ '1.10.2', '1.10.2' ]
+208 silly lockFile 80b3d569-jasmine-node-1-10-2 jasmine-node@1.10.2
+209 verbose lock jasmine-node@1.10.2 /home/treehouse/.npm/80b3d569-jasmine-node-1-10-2.lock
+210 verbose url raw coffee-script/1.6.3
+211 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script/1.6.3' ]
+212 verbose url resolved https://registry.npmjs.org/coffee-script/1.6.3
+213 info trying registry request attempt 1 at 06:22:53
+214 http GET https://registry.npmjs.org/coffee-script/1.6.3
+215 verbose url raw jasmine-node/1.10.2
+216 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-node/1.10.2' ]
+217 verbose url resolved https://registry.npmjs.org/jasmine-node/1.10.2
+218 info trying registry request attempt 1 at 06:22:53
+219 http GET https://registry.npmjs.org/jasmine-node/1.10.2
+220 http 200 https://registry.npmjs.org/coffee-script/1.6.3
+221 silly registry.get cb [ 200,
+221 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+221 silly registry.get     etag: '"B98EZ5IDN1WGH8CVROSKQ3CHC"',
+221 silly registry.get     'content-type': 'application/json',
+221 silly registry.get     'cache-control': 'max-age=300',
+221 silly registry.get     'content-length': '1116',
+221 silly registry.get     'accept-ranges': 'bytes',
+221 silly registry.get     date: 'Fri, 11 Dec 2015 11:23:10 GMT',
+221 silly registry.get     via: '1.1 varnish',
+221 silly registry.get     age: '0',
+221 silly registry.get     connection: 'keep-alive',
+221 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+221 silly registry.get     'x-cache': 'MISS',
+221 silly registry.get     'x-cache-hits': '0',
+221 silly registry.get     'x-timer': 'S1449832989.926599,VS0,VE240',
+221 silly registry.get     vary: 'Accept' } ]
+222 silly lockFile a0d97ffe-e-script-coffee-script-1-6-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz
+223 verbose lock https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz /home/treehouse/.npm/a0d97ffe-e-script-coffee-script-1-6-3-tgz.lock
+224 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz',
+224 verbose addRemoteTarball   '6355d32cf1b04cdff6b484e5e711782b2f0c39be' ]
+225 info retry fetch attempt 1 at 06:23:10
+226 verbose fetch to= /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/tmp.tgz
+227 http GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz
+228 http 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz
+229 verbose tar unpack /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/tmp.tgz
+230 silly lockFile fff946bc-90667-0-4290715311653912-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+231 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package /home/treehouse/.npm/fff946bc-90667-0-4290715311653912-package.lock
+232 silly lockFile 7af597b7-90667-0-4290715311653912-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/tmp.tgz
+233 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/tmp.tgz /home/treehouse/.npm/7af597b7-90667-0-4290715311653912-tmp-tgz.lock
+234 silly gunzTarPerm modes [ '755', '644' ]
+235 silly gunzTarPerm extractEntry package.json
+236 silly gunzTarPerm extractEntry .npmignore
+237 silly gunzTarPerm extractEntry README
+238 silly gunzTarPerm extractEntry LICENSE
+239 silly gunzTarPerm extractEntry CNAME
+240 silly gunzTarPerm extractEntry CONTRIBUTING.md
+241 silly gunzTarPerm extractEntry Rakefile
+242 silly gunzTarPerm extractEntry bin/cake
+243 silly gunzTarPerm extractEntry bin/coffee
+244 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+245 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+246 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+247 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+248 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+249 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+250 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+251 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+252 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+253 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+254 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+255 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+256 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+257 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+258 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+259 silly lockFile fff946bc-90667-0-4290715311653912-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+260 silly lockFile fff946bc-90667-0-4290715311653912-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+261 silly lockFile 7af597b7-90667-0-4290715311653912-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/tmp.tgz
+262 silly lockFile 7af597b7-90667-0-4290715311653912-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/tmp.tgz
+263 verbose tar pack [ '/home/treehouse/.npm/coffee-script/1.6.3/package.tgz',
+263 verbose tar pack   '/home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package' ]
+264 verbose tarball /home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+265 verbose folder /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+266 silly lockFile fff946bc-90667-0-4290715311653912-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+267 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package /home/treehouse/.npm/fff946bc-90667-0-4290715311653912-package.lock
+268 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+269 verbose lock tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz /home/treehouse/.npm/ff71c016--coffee-script-1-6-3-package-tgz.lock
+270 http 200 https://registry.npmjs.org/jasmine-node/1.10.2
+271 silly registry.get cb [ 200,
+271 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+271 silly registry.get     etag: '"CSTLR3HS6L13SV6CV7XT7JUDS"',
+271 silly registry.get     'content-type': 'application/json',
+271 silly registry.get     'cache-control': 'max-age=300',
+271 silly registry.get     'content-length': '1218',
+271 silly registry.get     'accept-ranges': 'bytes',
+271 silly registry.get     date: 'Fri, 11 Dec 2015 11:23:12 GMT',
+271 silly registry.get     via: '1.1 varnish',
+271 silly registry.get     age: '0',
+271 silly registry.get     connection: 'keep-alive',
+271 silly registry.get     'x-served-by': 'cache-sin6924-SIN',
+271 silly registry.get     'x-cache': 'MISS',
+271 silly registry.get     'x-cache-hits': '0',
+271 silly registry.get     'x-timer': 'S1449832989.962407,VS0,VE2237',
+271 silly registry.get     vary: 'Accept' } ]
+272 silly lockFile 38d85891-ine-node-jasmine-node-1-10-2-tgz https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz
+273 verbose lock https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz /home/treehouse/.npm/38d85891-ine-node-jasmine-node-1-10-2-tgz.lock
+274 verbose addRemoteTarball [ 'https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz',
+274 verbose addRemoteTarball   '4829c4226f827d5a55734154cbf39629a69be80f' ]
+275 info retry fetch attempt 1 at 06:23:12
+276 verbose fetch to= /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/tmp.tgz
+277 http GET https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz
+278 silly lockFile fff946bc-90667-0-4290715311653912-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+279 silly lockFile fff946bc-90667-0-4290715311653912-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832990667-0.4290715311653912/package
+280 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+281 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+282 silly lockFile a301290b--npm-coffee-script-1-6-3-package /home/treehouse/.npm/coffee-script/1.6.3/package
+283 verbose lock /home/treehouse/.npm/coffee-script/1.6.3/package /home/treehouse/.npm/a301290b--npm-coffee-script-1-6-3-package.lock
+284 silly lockFile a301290b--npm-coffee-script-1-6-3-package /home/treehouse/.npm/coffee-script/1.6.3/package
+285 silly lockFile a301290b--npm-coffee-script-1-6-3-package /home/treehouse/.npm/coffee-script/1.6.3/package
+286 verbose tar unpack /home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+287 silly lockFile 6d759db3--npm-coffee-script-1-6-3-package tar:///home/treehouse/.npm/coffee-script/1.6.3/package
+288 verbose lock tar:///home/treehouse/.npm/coffee-script/1.6.3/package /home/treehouse/.npm/6d759db3--npm-coffee-script-1-6-3-package.lock
+289 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+290 verbose lock tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz /home/treehouse/.npm/ff71c016--coffee-script-1-6-3-package-tgz.lock
+291 silly gunzTarPerm modes [ '755', '644' ]
+292 silly gunzTarPerm extractEntry package.json
+293 silly gunzTarPerm extractEntry .npmignore
+294 silly gunzTarPerm extractEntry README
+295 silly gunzTarPerm extractEntry LICENSE
+296 silly gunzTarPerm extractEntry CNAME
+297 silly gunzTarPerm extractEntry CONTRIBUTING.md
+298 silly gunzTarPerm extractEntry Rakefile
+299 silly gunzTarPerm extractEntry bin/cake
+300 silly gunzTarPerm extractEntry bin/coffee
+301 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+302 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+303 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+304 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+305 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+306 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+307 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+308 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+309 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+310 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+311 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+312 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+313 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+314 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+315 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+316 silly lockFile 6d759db3--npm-coffee-script-1-6-3-package tar:///home/treehouse/.npm/coffee-script/1.6.3/package
+317 silly lockFile 6d759db3--npm-coffee-script-1-6-3-package tar:///home/treehouse/.npm/coffee-script/1.6.3/package
+318 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+319 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+320 verbose chmod /home/treehouse/.npm/coffee-script/1.6.3/package.tgz 644
+321 verbose chown /home/treehouse/.npm/coffee-script/1.6.3/package.tgz [ 1001, 1003 ]
+322 silly lockFile a0d97ffe-e-script-coffee-script-1-6-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz
+323 silly lockFile a0d97ffe-e-script-coffee-script-1-6-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz
+324 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+325 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+326 http 200 https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz
+327 verbose tar unpack /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/tmp.tgz
+328 silly lockFile 68427e7b-92736-0-7821368912700564-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+329 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package /home/treehouse/.npm/68427e7b-92736-0-7821368912700564-package.lock
+330 silly lockFile 2d4427d7-92736-0-7821368912700564-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/tmp.tgz
+331 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/tmp.tgz /home/treehouse/.npm/2d4427d7-92736-0-7821368912700564-tmp-tgz.lock
+332 silly gunzTarPerm modes [ '755', '644' ]
+333 silly gunzTarPerm extractEntry package.json
+334 silly gunzTarPerm extractEntry .npmignore
+335 silly gunzTarPerm extractEntry README.md
+336 silly gunzTarPerm extractEntry LICENSE
+337 silly gunzTarPerm extractEntry bin/jasmine-node
+338 silly gunzTarPerm extractEntry lib/jasmine-node/async-callback.js
+339 silly gunzTarPerm extractEntry lib/jasmine-node/cli.js
+340 silly gunzTarPerm extractEntry lib/jasmine-node/cs.js
+341 silly gunzTarPerm extractEntry lib/jasmine-node/index.js
+342 silly gunzTarPerm extractEntry lib/jasmine-node/autotest.js
+343 silly gunzTarPerm extractEntry lib/jasmine-node/reporter.js
+344 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-runner.js
+345 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-spec-loader.js
+346 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-wrapper-template.js
+347 silly gunzTarPerm extractEntry lib/jasmine-node/spec-collection.js
+348 silly gunzTarPerm extractEntry lib/jasmine-node/jasmine-1.3.1.js
+349 silly gunzTarPerm extractEntry .travis.yml
+350 silly gunzTarPerm extractEntry scripts/specs
+351 silly gunzTarPerm extractEntry spec/sample_helper.js
+352 silly gunzTarPerm extractEntry spec/reporter_spec.js
+353 silly gunzTarPerm extractEntry spec/nested.js/NestedSpec.js
+354 silly gunzTarPerm extractEntry spec/SampleSpecs.js
+355 silly gunzTarPerm extractEntry spec/TestSpec.js
+356 silly gunzTarPerm extractEntry spec/TimerSpec.js
+357 silly gunzTarPerm extractEntry spec/helper_spec.js
+358 silly gunzTarPerm extractEntry spec/async-callback_spec.js
+359 silly gunzTarPerm extractEntry spec/CoffeeSpec.coffee
+360 silly gunzTarPerm extractEntry spec/litcoffee/Litcoffee.spec.litcoffee
+361 silly gunzTarPerm extractEntry spec/nested/NestedSpec.js
+362 silly gunzTarPerm extractEntry spec/nested/uber-nested/UberNestedSpec.js
+363 silly gunzTarPerm extractEntry spec/HelperSpec.coffee
+364 silly gunzTarPerm extractEntry spec/GrammarHelper.coffee
+365 silly gunzTarPerm extractEntry spec/AsyncSpec.coffee
+366 silly gunzTarPerm extractEntry spec-requirejs/requirejs-setup.js
+367 silly gunzTarPerm extractEntry spec-requirejs/requirejs-wrapper-template.js
+368 silly gunzTarPerm extractEntry spec-requirejs/requirejs.spec.js
+369 silly gunzTarPerm extractEntry spec-requirejs/requirejs.sut.js
+370 silly gunzTarPerm extractEntry spec-requirejs-coffee/requirejs-setup.js
+371 silly gunzTarPerm extractEntry spec-requirejs-coffee/RequireCsSpec.coffee
+372 silly gunzTarPerm extractEntry spec-requirejs-coffee/RequireJsSpec.coffee
+373 silly gunzTarPerm extractEntry spec-requirejs-coffee/requirecs.sut.coffee
+374 silly gunzTarPerm extractEntry specs.sh
+375 silly lockFile 68427e7b-92736-0-7821368912700564-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+376 silly lockFile 68427e7b-92736-0-7821368912700564-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+377 silly lockFile 2d4427d7-92736-0-7821368912700564-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/tmp.tgz
+378 silly lockFile 2d4427d7-92736-0-7821368912700564-tmp-tgz tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/tmp.tgz
+379 verbose tar pack [ '/home/treehouse/.npm/jasmine-node/1.10.2/package.tgz',
+379 verbose tar pack   '/home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package' ]
+380 verbose tarball /home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+381 verbose folder /home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+382 silly lockFile 68427e7b-92736-0-7821368912700564-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+383 verbose lock tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package /home/treehouse/.npm/68427e7b-92736-0-7821368912700564-package.lock
+384 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+385 verbose lock tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz /home/treehouse/.npm/e98cba25--jasmine-node-1-10-2-package-tgz.lock
+386 silly lockFile 68427e7b-92736-0-7821368912700564-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+387 silly lockFile 68427e7b-92736-0-7821368912700564-package tar:///home/treehouse/tmp/npm-2918-TrHZ1H3n/1449832992736-0.7821368912700564/package
+388 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+389 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+390 silly lockFile 927bc749--npm-jasmine-node-1-10-2-package /home/treehouse/.npm/jasmine-node/1.10.2/package
+391 verbose lock /home/treehouse/.npm/jasmine-node/1.10.2/package /home/treehouse/.npm/927bc749--npm-jasmine-node-1-10-2-package.lock
+392 silly lockFile 927bc749--npm-jasmine-node-1-10-2-package /home/treehouse/.npm/jasmine-node/1.10.2/package
+393 silly lockFile 927bc749--npm-jasmine-node-1-10-2-package /home/treehouse/.npm/jasmine-node/1.10.2/package
+394 verbose tar unpack /home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+395 silly lockFile d973dc48--npm-jasmine-node-1-10-2-package tar:///home/treehouse/.npm/jasmine-node/1.10.2/package
+396 verbose lock tar:///home/treehouse/.npm/jasmine-node/1.10.2/package /home/treehouse/.npm/d973dc48--npm-jasmine-node-1-10-2-package.lock
+397 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+398 verbose lock tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz /home/treehouse/.npm/e98cba25--jasmine-node-1-10-2-package-tgz.lock
+399 silly gunzTarPerm modes [ '755', '644' ]
+400 silly gunzTarPerm extractEntry package.json
+401 silly gunzTarPerm extractEntry .npmignore
+402 silly gunzTarPerm extractEntry README.md
+403 silly gunzTarPerm extractEntry LICENSE
+404 silly gunzTarPerm extractEntry bin/jasmine-node
+405 silly gunzTarPerm extractEntry lib/jasmine-node/async-callback.js
+406 silly gunzTarPerm extractEntry lib/jasmine-node/cli.js
+407 silly gunzTarPerm extractEntry lib/jasmine-node/cs.js
+408 silly gunzTarPerm extractEntry lib/jasmine-node/index.js
+409 silly gunzTarPerm extractEntry lib/jasmine-node/autotest.js
+410 silly gunzTarPerm extractEntry lib/jasmine-node/reporter.js
+411 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-runner.js
+412 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-spec-loader.js
+413 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-wrapper-template.js
+414 silly gunzTarPerm extractEntry lib/jasmine-node/spec-collection.js
+415 silly gunzTarPerm extractEntry lib/jasmine-node/jasmine-1.3.1.js
+416 silly gunzTarPerm extractEntry .travis.yml
+417 silly gunzTarPerm extractEntry scripts/specs
+418 silly gunzTarPerm extractEntry spec/sample_helper.js
+419 silly gunzTarPerm extractEntry spec/reporter_spec.js
+420 silly gunzTarPerm extractEntry spec/nested.js/NestedSpec.js
+421 silly gunzTarPerm extractEntry spec/SampleSpecs.js
+422 silly gunzTarPerm extractEntry spec/TestSpec.js
+423 silly gunzTarPerm extractEntry spec/TimerSpec.js
+424 silly gunzTarPerm extractEntry spec/helper_spec.js
+425 silly gunzTarPerm extractEntry spec/async-callback_spec.js
+426 silly gunzTarPerm extractEntry spec/CoffeeSpec.coffee
+427 silly gunzTarPerm extractEntry spec/litcoffee/Litcoffee.spec.litcoffee
+428 silly gunzTarPerm extractEntry spec/nested/NestedSpec.js
+429 silly gunzTarPerm extractEntry spec/nested/uber-nested/UberNestedSpec.js
+430 silly gunzTarPerm extractEntry spec/HelperSpec.coffee
+431 silly gunzTarPerm extractEntry spec/GrammarHelper.coffee
+432 silly gunzTarPerm extractEntry spec/AsyncSpec.coffee
+433 silly gunzTarPerm extractEntry spec-requirejs/requirejs-setup.js
+434 silly gunzTarPerm extractEntry spec-requirejs/requirejs-wrapper-template.js
+435 silly gunzTarPerm extractEntry spec-requirejs/requirejs.spec.js
+436 silly gunzTarPerm extractEntry spec-requirejs/requirejs.sut.js
+437 silly gunzTarPerm extractEntry spec-requirejs-coffee/requirejs-setup.js
+438 silly gunzTarPerm extractEntry spec-requirejs-coffee/RequireCsSpec.coffee
+439 silly gunzTarPerm extractEntry spec-requirejs-coffee/RequireJsSpec.coffee
+440 silly gunzTarPerm extractEntry spec-requirejs-coffee/requirecs.sut.coffee
+441 silly gunzTarPerm extractEntry specs.sh
+442 silly lockFile d973dc48--npm-jasmine-node-1-10-2-package tar:///home/treehouse/.npm/jasmine-node/1.10.2/package
+443 silly lockFile d973dc48--npm-jasmine-node-1-10-2-package tar:///home/treehouse/.npm/jasmine-node/1.10.2/package
+444 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+445 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+446 verbose chmod /home/treehouse/.npm/jasmine-node/1.10.2/package.tgz 644
+447 verbose chown /home/treehouse/.npm/jasmine-node/1.10.2/package.tgz [ 1001, 1003 ]
+448 silly lockFile 38d85891-ine-node-jasmine-node-1-10-2-tgz https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz
+449 silly lockFile 38d85891-ine-node-jasmine-node-1-10-2-tgz https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz
+450 silly lockFile 80b3d569-jasmine-node-1-10-2 jasmine-node@1.10.2
+451 silly lockFile 80b3d569-jasmine-node-1-10-2 jasmine-node@1.10.2
+452 silly resolved [ { name: 'coffee-script',
+452 silly resolved     description: 'Unfancy JavaScript',
+452 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+452 silly resolved     author: { name: 'Jeremy Ashkenas' },
+452 silly resolved     version: '1.6.3',
+452 silly resolved     licenses: [ [Object] ],
+452 silly resolved     engines: { node: '>=0.8.0' },
+452 silly resolved     directories: { lib: './lib/coffee-script' },
+452 silly resolved     main: './lib/coffee-script/coffee-script',
+452 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+452 silly resolved     scripts: { test: 'node ./bin/cake test' },
+452 silly resolved     homepage: 'http://coffeescript.org',
+452 silly resolved     bugs: { url: 'https://github.com/jashkenas/coffee-script/issues' },
+452 silly resolved     repository:
+452 silly resolved      { type: 'git',
+452 silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+452 silly resolved     devDependencies: { 'uglify-js': '~2.2', jison: '>=0.2.0' },
+452 silly resolved     readme: '\n            {\n         }   }   {\n        {   {  }  }\n         }   }{  {\n        {  }{  }  }                    _____       __  __\n       ( }{ }{  { )                   / ____|     / _|/ _|\n     .- { { }  { }} -.               | |     ___ | |_| |_ ___  ___\n    (  ( } { } { } }  )              | |    / _ \\|  _|  _/ _ \\/ _ \\\n    |`-..________ ..-\'|              | |___| (_) | | | ||  __/  __/\n    |                 |               \\_____\\___/|_| |_| \\___|\\___|\n    |                 ;--.\n    |                (__  \\            _____           _       _\n    |                 | )  )          / ____|         (_)     | |\n    |                 |/  /          | (___   ___ _ __ _ _ __ | |_\n    |                 (  /            \\___ \\ / __| \'__| | \'_ \\| __|\n    |                 |/              ____) | (__| |  | | |_) | |_\n    |                 |              |_____/ \\___|_|  |_| .__/ \\__|\n     `-.._________..-\'                                  | |\n                                                        |_|\n\n\n  CoffeeScript is a little language that compiles into JavaScript.\n\n  Install Node.js, and then the CoffeeScript compiler:\n  sudo bin/cake install\n\n  Or, if you have the Node Package Manager installed:\n  npm install -g coffee-script\n  (Leave off the -g if you don\'t wish to install globally.)\n\n  Execute a script:\n  coffee /path/to/script.coffee\n\n  Compile a script:\n  coffee -c /path/to/script.coffee\n\n  For documentation, usage, and examples, see:\n  http://coffeescript.org/\n\n  To suggest a feature, report a bug, or general discussion:\n  http://github.com/jashkenas/coffee-script/issues/\n\n  If you\'d like to chat, drop by #coffeescript on Freenode IRC,\n  or on webchat.freenode.net.\n\n  The source repository:\n  git://github.com/jashkenas/coffee-script.git\n\n  All contributors are listed here:\n  http://github.com/jashkenas/coffee-script/contributors\n',
+452 silly resolved     readmeFilename: 'README',
+452 silly resolved     _id: 'coffee-script@1.6.3',
+452 silly resolved     dist: { shasum: 'b191c1da40a510a9ec99375e0ca21237a898ac0e' },
+452 silly resolved     _from: 'coffee-script@1.6.3',
+452 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz' },
+452 silly resolved   { name: 'jasmine-node',
+452 silly resolved     version: '1.10.2',
+452 silly resolved     description: 'DOM-less simple JavaScript BDD testing framework for Node',
+452 silly resolved     contributors: [ [Object] ],
+452 silly resolved     homepage: 'https://github.com/mhevery/jasmine-node',
+452 silly resolved     repository:
+452 silly resolved      { type: 'git',
+452 silly resolved        url: 'https://github.com/mhevery/jasmine-node.git' },
+452 silly resolved     keywords: [ 'testing', 'bdd' ],
+452 silly resolved     author: { name: 'Misko Hevery', email: 'misko@hevery.com' },
+452 silly resolved     maintainers: [ [Object], [Object] ],
+452 silly resolved     licenses: [ 'MIT' ],
+452 silly resolved     dependencies:
+452 silly resolved      { 'coffee-script': '>=1.0.1',
+452 silly resolved        'jasmine-reporters': '>=0.2.0',
+452 silly resolved        requirejs: '>=0.27.1',
+452 silly resolved        walkdir: '>= 0.0.1',
+452 silly resolved        underscore: '>= 1.3.1',
+452 silly resolved        gaze: '~0.3.2',
+452 silly resolved        mkdirp: '~0.3.5' },
+452 silly resolved     bin: { 'jasmine-node': 'bin/jasmine-node' },
+452 silly resolved     preferGlobal: true,
+452 silly resolved     main: 'lib/jasmine-node',
+452 silly resolved     scripts: { test: 'node lib/jasmine-node/cli.js spec' },
+452 silly resolved     devDependencies: {},
+452 silly resolved     readme: 'jasmine-node\n======\n\n[![Build Status](https://secure.travis-ci.org/spaghetticode/jasmine-node.png)](http://travis-ci.org/spaghetticode/jasmine-node)\n\nThis node.js module makes the wonderful Pivotal Lab\'s jasmine\n(http://github.com/pivotal/jasmine) spec framework available in\nnode.js.\n\njasmine\n-------\n\nVersion 1.3.1 of Jasmine is currently included with node-jasmine.\n\nwhat\'s new\n----------\n*  Ability to test specs written in Literate Coffee-Script\n*  Teamcity Reporter reinstated.\n*  Ability to specify multiple files to test via list in command line\n*  Ability to suppress stack trace with <code>--noStack</code>\n*  Async tests now run in the expected context instead of the global one\n*  --config flag that allows you to assign variables to process.env\n*  Terminal Reporters are now available in the Jasmine Object #184\n*  Done is now available in all timeout specs #199\n*  <code>afterEach</code> is available in requirejs #179\n*  Editors that replace instead of changing files should work with autotest #198\n*  Jasmine Mock Clock now works!\n*  Autotest now works!\n*  Using the latest Jasmine!\n*  Verbose mode tabs <code>describe</code> blocks much more accurately!\n*  --coffee now allows specs written in Literate CoffeeScript (.litcoffee)\n\ninstall\n------\n\nTo install the latest official version, use NPM:\n\n    npm install jasmine-node -g\n\nTo install the latest _bleeding edge_ version, clone this repository and check\nout the `beta` branch.\n\nusage\n------\n\nWrite the specifications for your code in \\*.js and \\*.coffee files in the\nspec/ directory (note: your specification files must end with either\n.spec.js, .spec.coffee or .spec.litcoffee; otherwise jasmine-node won\'t find them!). You can use sub-directories to better organise your specs.\n\nIf you have installed the npm package, you can run it with:\n\n    jasmine-node spec/\n\nIf you aren\'t using npm, you should add `pwd`/lib to the $NODE_PATH\nenvironment variable, then run:\n\n    node lib/jasmine-node/cli.js\n\n\nYou can supply the following arguments:\n\n  * <code>--autotest</code>, provides automatic execution of specs after each change\n  * <code>--watch</code>, when used with <code>--autotest</code>, paths after <code>--watch</code> will be \nwatched for changes, allowing to watch for changes outside of specs directory\n  * <code>--coffee</code>, allow execution of .coffee and .litcoffee specs\n  * <code>--color</code>, indicates spec output should uses color to\nindicates passing (green) or failing (red) specs\n  * <code>--noColor</code>, do not use color in the output\n  * <code>-m, --match REGEXP</code>, match only specs comtaining "REGEXPspec"\n  * <code>--matchall</code>, relax requirement of "spec" in spec file names\n  * <code>--verbose</code>, verbose output as the specs are run\n  * <code>--junitreport</code>, export tests results as junitreport xml format\n  * <code>--output FOLDER</code>, defines the output folder for junitreport files\n  * <code>--teamcity</code>, converts all console output to teamcity custom test runner commands. (Normally auto detected.)\n  * <code>--runWithRequireJs</code>, loads all specs using requirejs instead of node\'s native require method\n  * <code>--requireJsSetup</code>, file run before specs to include and configure RequireJS\n  * <code>--test-dir</code>, the absolute root directory path where tests are located\n  * <code>--nohelpers</code>, does not load helpers\n  * <code>--forceexit</code>, force exit once tests complete\n  * <code>--captureExceptions</code>, listen to global exceptions, report them and exit (interferes with Domains in NodeJs, so do not use if using Domains as well\n  * <code>--config NAME VALUE</code>, set a global variable in process.env\n  * <code>--noStack</code>, suppress the stack trace generated from a test failure\n\nIndividual files to test can be added as bare arguments to the end of the args.\n\nExample:\n\n`jasmine-node --coffee spec/AsyncSpec.coffee spec/CoffeeSpec.coffee spec/SampleSpecs.js`\n\nasync tests\n-----------\n\njasmine-node includes an alternate syntax for writing asynchronous tests. Accepting\na done callback in the specification will trigger jasmine-node to run the test\nasynchronously waiting until the done() callback is called.\n\n```javascript\n    var request = require(\'request\');\n\n    it("should respond with hello world", function(done) {\n      request("http://localhost:3000/hello", function(error, response, body){\n        expect(body).toEqual("hello world");\n        done();\n      });\n    });\n```\n\nAn asynchronous test will fail after 5000 ms if done() is not called. This timeout\ncan be changed by setting `jasmine.getEnv().defaultTimeoutInterval` or by passing a timeout\ninterval in the specification.\n\n```javascript\n    var request = require(\'request\');\n\n    it("should respond with hello world", function(done) {\n      request("http://localhost:3000/hello", function(error, response, body){\n        done();\n      }, 250);  // timeout after 250 ms\n    });\n```\n\nor\n\n```javascript\n    var request = require(\'request\');\n\n    jasmine.getEnv().defaultTimeoutInterval = 500;\n    \n    it("should respond with hello world", function(done) {\n      request("http://localhost:3000/hello", function(error, response, body){\n        done();\n      });  // timeout after 500 ms\n    });\n```\n\nCheckout spec/SampleSpecs.js to see how to use it.\n\n\nrequirejs\n---------\n\nThere is a sample project in `/spec-requirejs`. It is comprised of:\n\n1.  `requirejs-setup.js`, this pulls in our wrapper template (next)\n1.  `requirejs-wrapper-template`, this builds up requirejs settings\n1.  `requirejs.sut.js`, this is a __SU__bject To __T__est, something required by requirejs\n1.  `requirejs.spec.js`, the actual jasmine spec for testing\n\nTo run it:\n\n    node lib/jasmine-node/cli.js --runWithRequireJs --requireJsSetup ./spec-requirejs/requirejs-setup.js ./spec-requirejs/\n\nexceptions\n----------\n\nOften you\'ll want to capture an uncaught exception and log it to the console,\nthis is accomplished by using the `--captureExceptions` flag. Exceptions will\nbe reported to the console, but jasmine-node will attempt to recover and\ncontinue. It was decided to not change the current functionality until 2.0. So,\nuntil then, jasmine-node will still return 0 and continue on without this flag.\n\n### Scenario ###\n\nYou require a module, but it doesn\'t exist, ie `require(\'Q\')` instead of\n`require(\'q\')`. Jasmine-Node reports the error to the console, but carries on\nand returns 0. This messes up Travis-CI because you need it to return a\nnon-zero status while doing CI tests.\n\n### Mitigation ###\n\nBefore `--captureExceptions`\n\n```sh\n> jasmine-node --coffee spec\n> echo $status\n0\n```\n\nRun jasmine node with the `--captureExceptions` flag.\n\n```sh\n> jasmine-node --coffee --captureExceptions spec\n> echo $status\n1\n```\n\n\ndevelopment\n-----------\n\nInstall the dependent packages by running:\n\n    npm install\n\nRun the specs before you send your pull request:\n\n    specs.sh\n\n__Note:__ Some tests are designed to fail in the specs.sh. After each of the\nindividual runs completes, there is a line that lists what the expected\nPass/Assert/Fail count should be. If you add/remove/edit tests, please be sure\nto update this with your PR.\n\n\nchangelog\n---------\n\n*  _1.10.2 - Restored stack filter which was accidentally removed (thanks to\n   [kevinsawicki](https://github.com/kevinsawicki))_\n*  _1.10.1 - `beforeEach` and `afterEach` now properly handle the async-timeout function_\n*  _1.10.0 - Skipped tests now show in the terminal reporter\'s output (thanks\n   to [kevinsawicki](https://github.com/kevinsawicki))_\n*  _1.9.1 - Timeout now consistent between Async and Non-Async Calls (thanks to\n   [codemnky](https://github.com/codemnky))_\n*  _1.9.0 - Now re-throwing the file-not-found error, added info to README.md,\n   printing version with `--version`_\n*  _1.8.1 - Fixed silent failure due to invalid REGEX (thanks to\n   [pimterry](https://github.com/pimterry))_\n*  _1.8.0 - Fixed bug in autotest with multiple paths and added --watch feature\n    (thanks to [davegb3](https://github.com/davegb3))_\n*  _1.7.1 - Removed unneeded fs dependency (thanks to\n   [kevinsawicki](https://github.com/kevinsawicki)) Fixed broken fs call in\n   node 0.6 (thanks to [abe33](https://github.com/abe33))_\n*  _1.7.0 - Literate Coffee-Script now testable (thanks to [magicmoose](https://github.com/magicmoose))_\n*  _1.6.0 - Teamcity Reporter Reinstated (thanks to [bhcleek](https://github.com/bhcleek))_\n*  _1.5.1 - Missing files and require exceptions will now report instead of failing silently_\n*  _1.5.0 - Now takes multiple files for execution. (thanks to [abe33](https://github.com/abe33))_\n*  _1.4.0 - Optional flag to suppress stack trace on test failure (thanks to [Lastalas](https://github.com/Lastalas))_\n*  _1.3.1 - Fixed context for async tests (thanks to [omryn](https://github.com/omryn))_\n*  _1.3.0 - Added --config flag for changeable testing environments_\n*  _1.2.3 - Fixed #179, #184, #198, #199. Fixes autotest, afterEach in requirejs, terminal reporter is in jasmine object, done function missing in async tests_\n*  _1.2.2 - Revert Exception Capturing to avoid Breaking Domain Tests_\n*  _1.2.1 - Emergency fix for path reference missing_\n*  _1.2.0 - Fixed #149, #152, #171, #181, #195. --autotest now works as expected, jasmine clock now responds to the fake ticking as requested, and removed the path.exists warning_\n*  _1.1.1 - Fixed #173, #169 (Blocks were not indented in verbose properly, added more documentation to address #180_\n*  _1.1.0 - Updated Jasmine to 1.3.1, fixed fs missing, catching uncaught exceptions, other fixes_\n',
+452 silly resolved     readmeFilename: 'README.md',
+452 silly resolved     bugs: { url: 'https://github.com/mhevery/jasmine-node/issues' },
+452 silly resolved     _id: 'jasmine-node@1.10.2',
+452 silly resolved     dist: { shasum: 'd65efa9bb527629241f873f63ca3c24c9d327480' },
+452 silly resolved     _from: 'jasmine-node@1.10.2',
+452 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.10.2.tgz' } ]
+453 info install coffee-script@1.6.3 into /home/treehouse/projects/angularrails/node_modules/heroku
+454 info install jasmine-node@1.10.2 into /home/treehouse/projects/angularrails/node_modules/heroku
+455 info installOne coffee-script@1.6.3
+456 info installOne jasmine-node@1.10.2
+457 info /home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script unbuild
+458 info /home/treehouse/projects/angularrails/node_modules/heroku/node_modules/jasmine-node unbuild
+459 verbose tar unpack /home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+460 silly lockFile 3dd0e495-eroku-node-modules-coffee-script tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script
+461 verbose lock tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script /home/treehouse/.npm/3dd0e495-eroku-node-modules-coffee-script.lock
+462 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+463 verbose lock tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz /home/treehouse/.npm/ff71c016--coffee-script-1-6-3-package-tgz.lock
+464 verbose tar unpack /home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+465 silly lockFile f609f4cf-heroku-node-modules-jasmine-node tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/jasmine-node
+466 verbose lock tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/jasmine-node /home/treehouse/.npm/f609f4cf-heroku-node-modules-jasmine-node.lock
+467 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+468 verbose lock tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz /home/treehouse/.npm/e98cba25--jasmine-node-1-10-2-package-tgz.lock
+469 silly gunzTarPerm modes [ '755', '644' ]
+470 silly gunzTarPerm modes [ '755', '644' ]
+471 silly gunzTarPerm extractEntry package.json
+472 silly gunzTarPerm extractEntry package.json
+473 silly gunzTarPerm extractEntry .npmignore
+474 silly gunzTarPerm extractEntry README
+475 silly gunzTarPerm extractEntry .npmignore
+476 silly gunzTarPerm extractEntry README.md
+477 silly gunzTarPerm extractEntry LICENSE
+478 silly gunzTarPerm extractEntry CNAME
+479 silly gunzTarPerm extractEntry LICENSE
+480 silly gunzTarPerm extractEntry bin/jasmine-node
+481 silly gunzTarPerm extractEntry CONTRIBUTING.md
+482 silly gunzTarPerm extractEntry Rakefile
+483 silly gunzTarPerm extractEntry lib/jasmine-node/async-callback.js
+484 silly gunzTarPerm extractEntry lib/jasmine-node/cli.js
+485 silly gunzTarPerm extractEntry lib/jasmine-node/cs.js
+486 silly gunzTarPerm extractEntry lib/jasmine-node/index.js
+487 silly gunzTarPerm extractEntry lib/jasmine-node/autotest.js
+488 silly gunzTarPerm extractEntry lib/jasmine-node/reporter.js
+489 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-runner.js
+490 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-spec-loader.js
+491 silly gunzTarPerm extractEntry lib/jasmine-node/requirejs-wrapper-template.js
+492 silly gunzTarPerm extractEntry lib/jasmine-node/spec-collection.js
+493 silly gunzTarPerm extractEntry lib/jasmine-node/jasmine-1.3.1.js
+494 silly gunzTarPerm extractEntry .travis.yml
+495 silly gunzTarPerm extractEntry scripts/specs
+496 silly gunzTarPerm extractEntry spec/sample_helper.js
+497 silly gunzTarPerm extractEntry spec/reporter_spec.js
+498 silly gunzTarPerm extractEntry spec/nested.js/NestedSpec.js
+499 silly gunzTarPerm extractEntry spec/SampleSpecs.js
+500 silly gunzTarPerm extractEntry spec/TestSpec.js
+501 silly gunzTarPerm extractEntry spec/TimerSpec.js
+502 silly gunzTarPerm extractEntry spec/helper_spec.js
+503 silly gunzTarPerm extractEntry spec/async-callback_spec.js
+504 silly gunzTarPerm extractEntry spec/CoffeeSpec.coffee
+505 silly gunzTarPerm extractEntry spec/litcoffee/Litcoffee.spec.litcoffee
+506 silly gunzTarPerm extractEntry spec/nested/NestedSpec.js
+507 silly gunzTarPerm extractEntry spec/nested/uber-nested/UberNestedSpec.js
+508 silly gunzTarPerm extractEntry spec/HelperSpec.coffee
+509 silly gunzTarPerm extractEntry spec/GrammarHelper.coffee
+510 silly gunzTarPerm extractEntry spec/AsyncSpec.coffee
+511 silly gunzTarPerm extractEntry spec-requirejs/requirejs-setup.js
+512 silly gunzTarPerm extractEntry spec-requirejs/requirejs-wrapper-template.js
+513 silly gunzTarPerm extractEntry spec-requirejs/requirejs.spec.js
+514 silly gunzTarPerm extractEntry spec-requirejs/requirejs.sut.js
+515 silly gunzTarPerm extractEntry spec-requirejs-coffee/requirejs-setup.js
+516 silly gunzTarPerm extractEntry spec-requirejs-coffee/RequireCsSpec.coffee
+517 silly gunzTarPerm extractEntry spec-requirejs-coffee/RequireJsSpec.coffee
+518 silly gunzTarPerm extractEntry spec-requirejs-coffee/requirecs.sut.coffee
+519 silly gunzTarPerm extractEntry specs.sh
+520 silly gunzTarPerm extractEntry bin/cake
+521 silly gunzTarPerm extractEntry bin/coffee
+522 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+523 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+524 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+525 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+526 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+527 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+528 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+529 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+530 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+531 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+532 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+533 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+534 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+535 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+536 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+537 silly lockFile 3dd0e495-eroku-node-modules-coffee-script tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script
+538 silly lockFile 3dd0e495-eroku-node-modules-coffee-script tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script
+539 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+540 silly lockFile ff71c016--coffee-script-1-6-3-package-tgz tar:///home/treehouse/.npm/coffee-script/1.6.3/package.tgz
+541 info preinstall coffee-script@1.6.3
+542 verbose readDependencies using package.json deps
+543 verbose readDependencies using package.json deps
+544 silly resolved []
+545 verbose about to build /home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script
+546 info build /home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script
+547 verbose linkStuff [ false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   '/home/treehouse/projects/angularrails/node_modules/heroku/node_modules' ]
+548 info linkStuff coffee-script@1.6.3
+549 verbose linkBins coffee-script@1.6.3
+550 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+550 verbose link bins   '/home/treehouse/projects/angularrails/node_modules/heroku/node_modules/.bin',
+550 verbose link bins   false ]
+551 verbose linkMans coffee-script@1.6.3
+552 verbose rebuildBundles coffee-script@1.6.3
+553 silly lockFile f609f4cf-heroku-node-modules-jasmine-node tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/jasmine-node
+554 silly lockFile f609f4cf-heroku-node-modules-jasmine-node tar:///home/treehouse/projects/angularrails/node_modules/heroku/node_modules/jasmine-node
+555 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+556 silly lockFile e98cba25--jasmine-node-1-10-2-package-tgz tar:///home/treehouse/.npm/jasmine-node/1.10.2/package.tgz
+557 info preinstall jasmine-node@1.10.2
+558 verbose readDependencies using package.json deps
+559 verbose readDependencies using package.json deps
+560 verbose cache add [ 'underscore@>= 1.3.1', null ]
+561 verbose cache add name=undefined spec="underscore@>= 1.3.1" args=["underscore@>= 1.3.1",null]
+562 verbose parsed url { protocol: null,
+562 verbose parsed url   slashes: null,
+562 verbose parsed url   auth: null,
+562 verbose parsed url   host: null,
+562 verbose parsed url   port: null,
+562 verbose parsed url   hostname: null,
+562 verbose parsed url   hash: null,
+562 verbose parsed url   search: null,
+562 verbose parsed url   query: null,
+562 verbose parsed url   pathname: 'underscore@%3E=%201.3.1',
+562 verbose parsed url   path: 'underscore@%3E=%201.3.1',
+562 verbose parsed url   href: 'underscore@%3E=%201.3.1' }
+563 verbose cache add name="underscore" spec=">= 1.3.1" args=["underscore",">= 1.3.1"]
+564 verbose parsed url { protocol: null,
+564 verbose parsed url   slashes: null,
+564 verbose parsed url   auth: null,
+564 verbose parsed url   host: null,
+564 verbose parsed url   port: null,
+564 verbose parsed url   hostname: null,
+564 verbose parsed url   hash: null,
+564 verbose parsed url   search: null,
+564 verbose parsed url   query: null,
+564 verbose parsed url   pathname: '%3E=%201.3.1',
+564 verbose parsed url   path: '%3E=%201.3.1',
+564 verbose parsed url   href: '%3E=%201.3.1' }
+565 verbose addNamed [ 'underscore', '>= 1.3.1' ]
+566 verbose addNamed [ null, '>=1.3.1' ]
+567 silly lockFile 097a612a-underscore-1-3-1 underscore@>= 1.3.1
+568 verbose lock underscore@>= 1.3.1 /home/treehouse/.npm/097a612a-underscore-1-3-1.lock
+569 verbose cache add [ 'gaze@~0.3.2', null ]
+570 verbose cache add name=undefined spec="gaze@~0.3.2" args=["gaze@~0.3.2",null]
+571 verbose parsed url { protocol: null,
+571 verbose parsed url   slashes: null,
+571 verbose parsed url   auth: null,
+571 verbose parsed url   host: null,
+571 verbose parsed url   port: null,
+571 verbose parsed url   hostname: null,
+571 verbose parsed url   hash: null,
+571 verbose parsed url   search: null,
+571 verbose parsed url   query: null,
+571 verbose parsed url   pathname: 'gaze@~0.3.2',
+571 verbose parsed url   path: 'gaze@~0.3.2',
+571 verbose parsed url   href: 'gaze@~0.3.2' }
+572 verbose cache add name="gaze" spec="~0.3.2" args=["gaze","~0.3.2"]
+573 verbose parsed url { protocol: null,
+573 verbose parsed url   slashes: null,
+573 verbose parsed url   auth: null,
+573 verbose parsed url   host: null,
+573 verbose parsed url   port: null,
+573 verbose parsed url   hostname: null,
+573 verbose parsed url   hash: null,
+573 verbose parsed url   search: null,
+573 verbose parsed url   query: null,
+573 verbose parsed url   pathname: '~0.3.2',
+573 verbose parsed url   path: '~0.3.2',
+573 verbose parsed url   href: '~0.3.2' }
+574 verbose addNamed [ 'gaze', '~0.3.2' ]
+575 verbose addNamed [ null, '>=0.3.2-0 <0.4.0-0' ]
+576 silly lockFile a0f725df-gaze-0-3-2 gaze@~0.3.2
+577 verbose lock gaze@~0.3.2 /home/treehouse/.npm/a0f725df-gaze-0-3-2.lock
+578 verbose cache add [ 'mkdirp@~0.3.5', null ]
+579 verbose cache add name=undefined spec="mkdirp@~0.3.5" args=["mkdirp@~0.3.5",null]
+580 verbose parsed url { protocol: null,
+580 verbose parsed url   slashes: null,
+580 verbose parsed url   auth: null,
+580 verbose parsed url   host: null,
+580 verbose parsed url   port: null,
+580 verbose parsed url   hostname: null,
+580 verbose parsed url   hash: null,
+580 verbose parsed url   search: null,
+580 verbose parsed url   query: null,
+580 verbose parsed url   pathname: 'mkdirp@~0.3.5',
+580 verbose parsed url   path: 'mkdirp@~0.3.5',
+580 verbose parsed url   href: 'mkdirp@~0.3.5' }
+581 verbose cache add name="mkdirp" spec="~0.3.5" args=["mkdirp","~0.3.5"]
+582 verbose parsed url { protocol: null,
+582 verbose parsed url   slashes: null,
+582 verbose parsed url   auth: null,
+582 verbose parsed url   host: null,
+582 verbose parsed url   port: null,
+582 verbose parsed url   hostname: null,
+582 verbose parsed url   hash: null,
+582 verbose parsed url   search: null,
+582 verbose parsed url   query: null,
+582 verbose parsed url   pathname: '~0.3.5',
+582 verbose parsed url   path: '~0.3.5',
+582 verbose parsed url   href: '~0.3.5' }
+583 verbose addNamed [ 'mkdirp', '~0.3.5' ]
+584 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+585 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+586 verbose lock mkdirp@~0.3.5 /home/treehouse/.npm/c3f0fe9b-mkdirp-0-3-5.lock
+587 silly addNameRange { name: 'underscore', range: '>=1.3.1', hasData: false }
+588 silly addNameRange { name: 'gaze', range: '>=0.3.2-0 <0.4.0-0', hasData: false }
+589 verbose cache add [ 'walkdir@>= 0.0.1', null ]
+590 verbose cache add name=undefined spec="walkdir@>= 0.0.1" args=["walkdir@>= 0.0.1",null]
+591 verbose parsed url { protocol: null,
+591 verbose parsed url   slashes: null,
+591 verbose parsed url   auth: null,
+591 verbose parsed url   host: null,
+591 verbose parsed url   port: null,
+591 verbose parsed url   hostname: null,
+591 verbose parsed url   hash: null,
+591 verbose parsed url   search: null,
+591 verbose parsed url   query: null,
+591 verbose parsed url   pathname: 'walkdir@%3E=%200.0.1',
+591 verbose parsed url   path: 'walkdir@%3E=%200.0.1',
+591 verbose parsed url   href: 'walkdir@%3E=%200.0.1' }
+592 verbose cache add name="walkdir" spec=">= 0.0.1" args=["walkdir",">= 0.0.1"]
+593 verbose parsed url { protocol: null,
+593 verbose parsed url   slashes: null,
+593 verbose parsed url   auth: null,
+593 verbose parsed url   host: null,
+593 verbose parsed url   port: null,
+593 verbose parsed url   hostname: null,
+593 verbose parsed url   hash: null,
+593 verbose parsed url   search: null,
+593 verbose parsed url   query: null,
+593 verbose parsed url   pathname: '%3E=%200.0.1',
+593 verbose parsed url   path: '%3E=%200.0.1',
+593 verbose parsed url   href: '%3E=%200.0.1' }
+594 verbose addNamed [ 'walkdir', '>= 0.0.1' ]
+595 verbose addNamed [ null, '>=0.0.1' ]
+596 silly lockFile bd68f12d-walkdir-0-0-1 walkdir@>= 0.0.1
+597 verbose lock walkdir@>= 0.0.1 /home/treehouse/.npm/bd68f12d-walkdir-0-0-1.lock
+598 verbose cache add [ 'jasmine-reporters@>=0.2.0', null ]
+599 verbose cache add name=undefined spec="jasmine-reporters@>=0.2.0" args=["jasmine-reporters@>=0.2.0",null]
+600 verbose parsed url { protocol: null,
+600 verbose parsed url   slashes: null,
+600 verbose parsed url   auth: null,
+600 verbose parsed url   host: null,
+600 verbose parsed url   port: null,
+600 verbose parsed url   hostname: null,
+600 verbose parsed url   hash: null,
+600 verbose parsed url   search: null,
+600 verbose parsed url   query: null,
+600 verbose parsed url   pathname: 'jasmine-reporters@%3E=0.2.0',
+600 verbose parsed url   path: 'jasmine-reporters@%3E=0.2.0',
+600 verbose parsed url   href: 'jasmine-reporters@%3E=0.2.0' }
+601 verbose cache add name="jasmine-reporters" spec=">=0.2.0" args=["jasmine-reporters",">=0.2.0"]
+602 verbose parsed url { protocol: null,
+602 verbose parsed url   slashes: null,
+602 verbose parsed url   auth: null,
+602 verbose parsed url   host: null,
+602 verbose parsed url   port: null,
+602 verbose parsed url   hostname: null,
+602 verbose parsed url   hash: null,
+602 verbose parsed url   search: null,
+602 verbose parsed url   query: null,
+602 verbose parsed url   pathname: '%3E=0.2.0',
+602 verbose parsed url   path: '%3E=0.2.0',
+602 verbose parsed url   href: '%3E=0.2.0' }
+603 verbose addNamed [ 'jasmine-reporters', '>=0.2.0' ]
+604 verbose addNamed [ null, '>=0.2.0' ]
+605 silly lockFile 9da427e3-jasmine-reporters-0-2-0 jasmine-reporters@>=0.2.0
+606 verbose lock jasmine-reporters@>=0.2.0 /home/treehouse/.npm/9da427e3-jasmine-reporters-0-2-0.lock
+607 verbose cache add [ 'requirejs@>=0.27.1', null ]
+608 verbose cache add name=undefined spec="requirejs@>=0.27.1" args=["requirejs@>=0.27.1",null]
+609 verbose parsed url { protocol: null,
+609 verbose parsed url   slashes: null,
+609 verbose parsed url   auth: null,
+609 verbose parsed url   host: null,
+609 verbose parsed url   port: null,
+609 verbose parsed url   hostname: null,
+609 verbose parsed url   hash: null,
+609 verbose parsed url   search: null,
+609 verbose parsed url   query: null,
+609 verbose parsed url   pathname: 'requirejs@%3E=0.27.1',
+609 verbose parsed url   path: 'requirejs@%3E=0.27.1',
+609 verbose parsed url   href: 'requirejs@%3E=0.27.1' }
+610 verbose cache add name="requirejs" spec=">=0.27.1" args=["requirejs",">=0.27.1"]
+611 verbose parsed url { protocol: null,
+611 verbose parsed url   slashes: null,
+611 verbose parsed url   auth: null,
+611 verbose parsed url   host: null,
+611 verbose parsed url   port: null,
+611 verbose parsed url   hostname: null,
+611 verbose parsed url   hash: null,
+611 verbose parsed url   search: null,
+611 verbose parsed url   query: null,
+611 verbose parsed url   pathname: '%3E=0.27.1',
+611 verbose parsed url   path: '%3E=0.27.1',
+611 verbose parsed url   href: '%3E=0.27.1' }
+612 verbose addNamed [ 'requirejs', '>=0.27.1' ]
+613 verbose addNamed [ null, '>=0.27.1' ]
+614 silly lockFile 542bd449-requirejs-0-27-1 requirejs@>=0.27.1
+615 verbose lock requirejs@>=0.27.1 /home/treehouse/.npm/542bd449-requirejs-0-27-1.lock
+616 verbose url raw underscore
+617 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+618 verbose url resolved https://registry.npmjs.org/underscore
+619 info trying registry request attempt 1 at 06:23:16
+620 http GET https://registry.npmjs.org/underscore
+621 verbose url raw gaze
+622 verbose url resolving [ 'https://registry.npmjs.org/', './gaze' ]
+623 verbose url resolved https://registry.npmjs.org/gaze
+624 info trying registry request attempt 1 at 06:23:16
+625 http GET https://registry.npmjs.org/gaze
+626 silly addNameRange { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+627 info /home/treehouse/projects/angularrails/node_modules/heroku/node_modules/coffee-script unbuild
+628 info preuninstall coffee-script@1.6.3
+629 verbose url raw mkdirp
+630 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+631 verbose url resolved https://registry.npmjs.org/mkdirp
+632 info trying registry request attempt 1 at 06:23:16
+633 http GET https://registry.npmjs.org/mkdirp
+634 silly addNameRange { name: 'walkdir', range: '>=0.0.1', hasData: false }
+635 silly addNameRange { name: 'jasmine-reporters', range: '>=0.2.0', hasData: false }
+636 silly addNameRange { name: 'requirejs', range: '>=0.27.1', hasData: false }
+637 verbose url raw walkdir
+638 verbose url resolving [ 'https://registry.npmjs.org/', './walkdir' ]
+639 verbose url resolved https://registry.npmjs.org/walkdir
+640 info trying registry request attempt 1 at 06:23:16
+641 http GET https://registry.npmjs.org/walkdir
+642 verbose url raw jasmine-reporters
+643 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-reporters' ]
+644 verbose url resolved https://registry.npmjs.org/jasmine-reporters
+645 info trying registry request attempt 1 at 06:23:16
+646 http GET https://registry.npmjs.org/jasmine-reporters
+647 verbose url raw requirejs
+648 verbose url resolving [ 'https://registry.npmjs.org/', './requirejs' ]
+649 verbose url resolved https://registry.npmjs.org/requirejs
+650 info trying registry request attempt 1 at 06:23:16
+651 http GET https://registry.npmjs.org/requirejs
+652 info uninstall coffee-script@1.6.3
+653 verbose false,/home/treehouse/projects/angularrails/node_modules,/home/treehouse/projects/angularrails/node_modules/heroku/node_modules unbuild coffee-script@1.6.3
+654 verbose /home/treehouse/projects/angularrails/node_modules/heroku/node_modules/.bin,[object Object] binRoot
+655 info postuninstall coffee-script@1.6.3
+656 verbose about to build /home/treehouse/projects/angularrails/node_modules/heroku
+657 info /home/treehouse/projects/angularrails/node_modules/heroku unbuild
+658 info preuninstall heroku@0.1.3
+659 info uninstall heroku@0.1.3
+660 verbose true,/home/treehouse/projects/angularrails/node_modules,/home/treehouse/projects/angularrails/node_modules unbuild heroku@0.1.3
+661 info postuninstall heroku@0.1.3
+662 error Error: UNKNOWN, symlink '../coffee-script/bin/coffee'
+663 error If you need help, you may report this log at:
+663 error     <http://github.com/isaacs/npm/issues>
+663 error or email it to:
+663 error     <npm-@googlegroups.com>
+664 error System Linux 3.8.0-44-generic
+665 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "heroku"
+666 error cwd /home/treehouse/projects/angularrails
+667 error node -v v0.10.21
+668 error npm -v 1.3.11
+669 error path ../coffee-script/bin/coffee
+670 error code UNKNOWN
+671 error errno -1
+672 verbose exit [ -1, true ]
